@@ -173,6 +173,16 @@
       cursor: pointer;
       transform-style: preserve-3d;
       transition: transform 0.3s ease;
+      max-width: 95vw;
+      max-height: 90vh;
+    }
+
+    @media (max-width: 500px) {
+      .envelope {
+        width: 90vw;
+        height: auto;
+        min-height: 280px;
+      }
     }
 
     .envelope:hover {
